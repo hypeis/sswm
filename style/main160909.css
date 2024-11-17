@@ -1,0 +1,121 @@
+.centercol{float: left;width:730px;margin:0 10px;}
+.centercol h2,.rightcol h2{position:relative;padding:18px 0 15px;font-size:22px;font-weight: bold;color:#14171b;}
+.centercol h2 .btn_more,.rightcol h2 .btn_more{position: absolute;right:10px;top:25px;font-size:12px;color:#5f5f5f;font-weight: normal;}
+/********lunbo***********/    
+.centercol .lunbo_box{width:670px; height:359px; overflow:hidden; position:relative;}
+.centercol .lunbo_box .shop_img{ width:670px; height:359px; overflow:hidden;}
+.centercol .lunbo_box .shop_img .lb_cont1{ display:none; width:670px; height:359px;}
+.centercol .lunbo_box .shop_img .lb_cont1 img{ display:block; width:670px; height:359px;}
+#shop_btn{  width:100%; height:40px; position:absolute; bottom:0; left:0;}
+#shop_btn_left,#shop_btn_right{ height:40px; width:40px; float:left; cursor:pointer;}
+#shop_btn_left{display: none; background:url(../images/main160909/btn_left.png) no-repeat center center;}
+#shop_btn_right{display: none; background:url(../images/main160909/btn_right.png) no-repeat center center;}
+#shop_name{float:left;height:40px; overflow:hidden;}
+#shop_name td a{ display:block; width:133px; height:40px;border-left:1px solid #868585;cursor:pointer; overflow:hidden;line-height:40px;background:#242220;background:rgba(0,0,0,0.7); color:#fff; font-size:14px;text-align:center;}
+#shop_name td.curr a,#shop_name td a:hover{ text-decoration:none; background:#c01000; }
+/********新闻***********/    
+.centercol .news_box{position:relative;margin-top:10px;padding:15px 20px;width:690px;height:360px;background-color: #fff;color:#313131;}
+.centercol .news_box .news_nav{padding:0 5px;overflow: hidden;border-bottom:1px solid #656571;}
+.centercol .news_box .news_nav li{float: left;width: 84px;height:40px;line-height:40px;text-align: center;font-size:16px;cursor: pointer;}
+.centercol .news_box .news_nav li.on{border-bottom:2px solid #c01000;}
+.centercol .news_box .news_hot{font-size:16px;color:#c01000;font-weight: bold;display: block;text-align: center;padding:20px 0;border-bottom:1px solid #d9d9d9;}
+.centercol .news_box .news_hot1{font-size:14px;color:#333333;font-weight: bold;display: block;text-align: center;padding:20px 0;border-bottom:1px solid #d9d9d9;}
+.centercol .news_box .news_detail{display:none;padding-top:5px;}
+.centercol .news_box .news_detail .btn_more{position:absolute;right:27px;top:30px;font-size:12px;color:#5f5f5f;}
+.centercol .news_box .news_detail ul li{overflow: hidden;}
+.centercol .news_box .news_detail ul li a{display:block;padding:6px 0;color:#696969;}
+.centercol .news_box .news_detail ul li a.hot{color:#c01000;}
+.centercol .news_box .news_detail ul li span,.centercol .news_box .news_detail ul li p{float: left;}
+.centercol .news_box .news_detail ul li em{float: right;color:#999999;}
+
+/********江湖百晓阁***********/   
+.jianghu{position:relative;margin-top:10px;padding:0 20px;width:730px;height:256px;background-color: #fff;} 
+.jianghu h2{width:510px;}
+.jianghu .join{position:absolute;right:0;top:0;width:109px;height:255px;background: url(../images/main160909/jh_img06.jpg) no-repeat center top;}
+.jianghu ul li{float:left;margin-right: 10px;}
+.jianghu ul li a{display: block;position: relative;width:94px;height:168px;}
+.jianghu ul li a p{position: absolute;left:0;bottom:0;width:100%;padding-bottom:6px;font-size:14px;font-weight: bold;color:#fff;text-align: center;}
+/********门派***********/   
+.school_box{position:relative;margin-top:10px;width:730px;height:362px;overflow:hidden;background-color: #fff;}
+.school_box .school_lunbo ul{position:relative;}
+.school_lunbo ul li{position:relative;float:left;width:730px;padding-top:40px;height:362px;margin:0 auto;background-position: center;background-repeat: no-repeat;}
+.school_lunbo ul li a{display: block;width:100%;height:100%;}
+.school_linglong{background-image: url(../images/main1706/zhiye_linglong.jpg);}
+.school_1{background-image: url(../images/main160909/fs.jpg);}
+.school_2{background-image: url(../images/main160909/wx.jpg);}
+.school_3{background-image: url(../images/main160909/yl.jpg);}
+.school_4{background-image: url(../images/main160909/ym.jpg);}
+.school_5{background-image: url(../images/main160909/yj.jpg);}
+.school_6{background-image: url(../images/main160909/ys.jpg);}
+.school_07{background-image: url(../images/main160909/school_img07.jpg);}
+.school_08{background-image: url(../images/main160909/school_img08.jpg);}
+.school_09{background-image: url(../images/main160909/school_img09.jpg);}
+.school_10{background-image: url(../images/main160909/school_img10.jpg);}
+.school_11{background-image: url(../images/main160909/school_img11.jpg);}
+.school_nav{position:absolute;left:35px;top:10px;z-index:11;border-bottom:1px solid #656571;width: 660px;}
+.school_nav ul li{position:relative;float:left;width:110px;text-align: center;color:#000;font-size:24px;height:46px;line-height:44px;margin-bottom:-2px;cursor:pointer;}
+.school_nav li:before{content: '';width: 0;height: 3px;position: absolute;bottom: 0;left: 0;background: #c01000;
+  -webkit-transition: all .3s; /* Safari 和 Chrome */
+     -moz-transition: all .3s; /* Firefox 4 */
+       -o-transition: all .3s; /* Opera */
+          transition: all .3s;}
+.school_nav li:hover:before,
+.school_nav li.on:before{width: 100%;}
+.school_nav li.on{color:#207a85;}
+/********玩家风采***********/   
+.player_box{margin-top:10px;width: 690px;height: 305px;padding:0 20px;background-color: #fff;}
+.player_box ul li{float: left;margin:0 11px 0 10px;}
+.player_box ul li p{text-align: center;padding-top:10px;font-size:18px;color:#696969;}
+.player_box ul li img{width: 188px;height: 188px;}
+.rightcol{float:left;width: 319px;font-size:12px;}
+/********推荐新服***********/   
+.rightcol .newserver_box{width: 279px;height:359px;padding:0 20px;background-color: #fff;font-family: "微软雅黑"}
+.rightcol .newserver_box ul li{overflow: hidden;padding-bottom:5px;color:#c01000;font-size:16px;font-weight: bold;}
+.rightcol .newserver_box ul li span{float: right;font-weight: normal;font-size:12px;line-height: 23px;}
+.rightcol .newserver_box .line{margin-top:15px;width: 100%;height:1px;background-color: #5f5f5f;}
+.rightcol .newserver_box img{display: block;width:269px;height:101px;margin:15px auto;}
+.rightcol .newserver_box p{color:#5f5f5f;line-height: 1.5em;}
+/********活动日历***********/   
+.rightcol .event_box{margin-top:10px;width: 281px;height:215px;padding:0 19px;background-color: #fff;}
+.rightcol .event_box .event_nav,.rightcol .event_box .hot_nav{overflow: hidden;}
+.rightcol .event_box .event_nav li,.rightcol .event_box .hot_nav li{float: left;width:40px;height:20px;line-height: 20px;text-align: center;background-color: #bfb99e;color:#fff;cursor: pointer;}
+.rightcol .event_box .event_nav li.on,.rightcol .event_box .hot_nav li.on{background-color: #e9e5d5;color:#645b34;}
+.rightcol .event_box .event_detail,.rightcol .event_box .hot_detail{margin-top:10px;width:100%;height:110px;overflow: auto;display: none;}
+.rightcol .event_box .event_detail ul li,.rightcol .event_box .hot_detail ul li{overflow: hidden;}
+.rightcol .event_box .event_detail ul li a,.rightcol .event_box .hot_detail ul li a{color:#63636e;display: block;padding:3px 0;}
+.rightcol .event_box .event_detail ul li a em,.rightcol .event_box .hot_detail ul li a em{float: right;color:#b1b1b1;}
+.rightcol .event_box .hot_nav li{width:133px;cursor: pointer;}
+/********攻略***********/   
+.rightcol .bbs_box{margin-top:10px;width: 281px;height:246px;padding:10px 19px 0;background-color: #fff;position: relative;}
+.rightcol .bbs_box .bbs_nav{overflow: hidden;border-bottom:1px solid #656571;}
+.rightcol .bbs_box .bbs_nav li{float: left;width:70px;height:34px;line-height:34px;text-align: center;cursor: pointer;}
+.rightcol .bbs_box .bbs_nav li.on{border-bottom:2px solid #c01000;}
+.rightcol .bbs_box .bbs_detail{display:none;padding-top:14px;}
+.rightcol .bbs_box .bbs_detail .btn_more{position:absolute;right:27px;top:20px;color:#5f5f5f;}
+.rightcol .bbs_box .bbs_detail ul li{overflow: hidden;}
+.rightcol .bbs_box .bbs_detail ul li a{display:block;padding:3px 0;color:#696969;}
+.rightcol .bbs_box .bbs_detail ul li em{float: right;color:#999999;}
+/********视听盛宴***********/   
+.rightcol .vedio_box{margin-top:10px;width: 281px;height:362px;padding:0 19px 0;background-color: #fff;position: relative;}
+.rightcol .vedio_box .vedio_nav{overflow: hidden;}
+.rightcol .vedio_box .vedio_nav li{float: left;width:87px;margin:3px;height:28px;line-height:28px;text-align: center;cursor: pointer;background-color: #bfb99e;color:#fff;}
+.rightcol .vedio_box .vedio_nav li.on{background-color: #e9e5d5;color:#645b34;}
+.rightcol .vedio_box .vedio_detail{display:none;padding-top:15px;overflow:hidden;}
+.rightcol .vedio_box .vedio_detail ul li{float: left;width: 130px;margin:4px 5px;}
+.rightcol .vedio_box .vedio_detail ul li p{text-align: center;}
+.rightcol .vedio_box .vedio_detail .btn_more{position:absolute;right:27px;top:26px;color:#5f5f5f;}
+/********媒体专区***********/ 
+.rightcol .media_box{margin-top:10px;width: 281px;height:305px;padding:0 19px 0;background-color: #fff;position: relative;}
+#meiti_l,#meiti_r{ position:absolute; width:17px; height:27px; top:88px; cursor:pointer; text-indent:-9999px; overflow:hidden; z-index:10;}
+/* #meiti_l{ left:25px; background-image:url(../images/main160909/media_btn_l.jpg)}
+#meiti_r{ right:25px; background-image:url(../images/main160909/media_btn_r.jpg)} */
+#hide_meiti{ width:250px; height:340px; margin:0 auto; overflow:hidden;}
+.meiti_scroll{ width:2500px; height:340px; overflow:hidden;}
+.meiti_one{ float:left; width:250px; height:340px; overflow:hidden;}
+/* .meiti_logo{ width:250px; height:84px; padding-top:1px; margin-bottom:10px; background-image:url(http://xa.wanmei.com/images/main1606/meitilogo_bg.png); overflow:hidden;} */
+.meiti_logo img{ display:block; width:248px; height:78px; margin:0 auto;}
+.meiti_ul{ width:250px; height:168px; overflow:hidden;}
+.meiti_ul li{ width:250px; height:20px; font:normal 12px/20px "宋体"; color:#696969; text-align:right;}
+.meiti_ul li a{ float:left; width:200px; height:20px; color:#696969; text-align:left; overflow:hidden;}
+/* .btn_meiti_gift{ display:block; width:250px; height:62px; margin-top:20px; background-image:url(http://xa.wanmei.com/images/main1606/btn_meiti_gift.png); text-indent:-9999px; overflow:hidden;} */
+
